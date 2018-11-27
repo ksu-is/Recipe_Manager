@@ -2,11 +2,12 @@
 
 Goals for the next 3 weeks:
   1. Add comment notes on all Planner python files
-  2. install Django into the correct file location
-  3. run manage.py migrate
-  4. Create a database with the correct structure 
-  5. Add a Super-admin user to the database that allows me to mess around with the application
-  6. Add one recipe to the application
+  2. Clean up files, ensuring missing files have been found.
+  3. install Django into the correct file location
+  4. run manage.py migrate
+  5. Create a database with the correct structure 
+  6. Add a Super-admin user to the database that allows me to mess around with the application
+  7. Add one recipe to the application
  
   
 Current Commits:
