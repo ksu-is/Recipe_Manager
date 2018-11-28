@@ -23,6 +23,8 @@ To get involved with development, clone the repository to your local IDE and per
     - This creates a localhost:8000 server
     - From here, you can use localhost:8000/planner to view the planner HTML Page
     - From here, you can use localhost:8000/admin to view the Django administrator page
+            - Enter information you provided for super-user account into django admin page
+            - Begin adding recipes, adding calenders, adding users, groups, and much more.
 - End development server connection using 'CTRL-C'
 
 ## Contact
