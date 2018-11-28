@@ -13,7 +13,7 @@ To get involved with development, clone the repository to your local IDE and per
 - Activate the virtual environment using 'venv\Scripts\activate'
 **Created a requirements.txt dependency file. Installed Django onto this**
     - pip freeze > requirements.txt
-    - install django using 'pip install django'
+    - 'requirements.txt pip install django' - This creates the base requirements.txt information
 - Create a database with the correct structure by running `manage.py migrate` in the CLI
 - Add a super-admin user to the database to start playing around by running `manage.py createsuperuser`
 - You will be prompted to enter username, password, and email.
