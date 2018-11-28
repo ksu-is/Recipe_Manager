@@ -8,12 +8,20 @@ There is no fixed roadmap, no release cycle and absolutely no idea, where this w
 To get involved with development, clone the repository to your local IDE and perform the following tasks:
 - Install Github Desktop
 - Clone 'foodmanager' repository to your local IDE
-- Install Django 2.0 using 'pip install Django==2.1.3'
+- Using the Command Prompt, navigate to the Project Folder
 - Create a virtual environment using 'virtualenv'
-- Using the CLI, navigate to the folder housing the manage.py file
+- Activate the virtual environment using 'venv\Scripts\activate'
+**Created a requirements.txt dependency file. Installed Django onto this**
+    - pip freeze > requirements.txt
+    - install django using 'pip install django'
 - Create a database with the correct structure by running `manage.py migrate` in the CLI
 - Add a super-admin user to the database to start playing around by running `manage.py createsuperuser`
-
+- You will be prompted to enter username, password, and email.
+- Create a local development server using 'manage.py runserver'
+    - This creates a localhost:8000 server
+    - From here, you can use localhost:8000/planner to view the planner HTML Page
+    - From here, you can use localhost:8000/admin to view the Django administrator page
+- End development server connection using 'CTRL-C'
 
 ## Contact
 The foodmanager project was started and is currently run by Christoph Krammer <chris@twotigers.de>.
