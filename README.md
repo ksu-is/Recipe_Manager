@@ -8,21 +8,23 @@ There is no fixed roadmap, no release cycle and absolutely no idea, where this w
 To get involved with development, clone the repository to your local IDE and perform the following tasks:
 - Install Github Desktop
 - Clone 'foodmanager' repository to your local IDE
+- pip install virtualenv
+    (This installs virtual environment capability on your computer)
 - Using the Command Prompt, navigate to the Project Folder
-- Create a virtual environment using 'virtualenv'
+- Create a virtual environment using 'virtualenv venv'
 - Activate the virtual environment using 'venv\Scripts\activate'
 **Created a requirements.txt dependency file. Installed Django onto this**
     - pipreqs 'Project Folder Location'
     - pip freeze > requirements.txt
     - 'requirements.txt pip install django' - This creates the base requirements.txt information
 - To install dependencies type 'pip install -r requirements.txt'
-- Create a database with the correct structure by running `manage.py migrate` in the CLI
+- Create a database with the correct structure by running `manage.py migrate` in your command prompt
 - Add a super-admin user to the database to start playing around by running `manage.py createsuperuser`
 - You will be prompted to enter username, password, and email.
 - Create a local development server using 'manage.py runserver'
     - This creates a localhost:8000 server
-    - From here, you can use localhost:8000/planner to view the planner HTML Page
-    - From here, you can use localhost:8000/admin to view the Django administrator page
+    - From here, you can type localhost:8000/planner into your browser to view the planner HTML Page
+    - From here, you can type localhost:8000/admin into your browser to view the Django administrator page
             - Enter information you provided for super-user account into django admin page
             - Begin adding recipes, adding calenders, adding users, groups, and much more.
 - End development server connection using 'CTRL-C'
